@@ -19,6 +19,7 @@ sparrow_cage2.py and format_interactions.py were created by Alexander Flynn-Caro
 │   ├──individuals that entered the cage but did not interact do not appear in the file but have sociality scores of 0 (inferred from raw data in each Aviary folder)
 ├── interaction data.R       <-  Analyses sociality scores and badge size correlation for each individual per aviary, across the captive population
 │   ├──uses raw data file of aviaries and indiviudals including transponders, aviary number, age, cohort+ social scores and badge size
+│   ├──draws correlation plots using ggplot with badge size and sociality data
 ├── SNAsimulations.R      <-  Randomised social network simulations to create null model 
 │   ├──creates a distribution of correlations from randomised null models 
 │   ├──needs a file containing all interactions from every occassion and aviary used in the initial anlysis, plus individuals that entered the cage but did not interact with others. Obtain interactions from 'overlap' data files and solitary individuals from raw RFID data. (Raw data in each Aviary folder) 
