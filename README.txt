@@ -21,5 +21,5 @@ sparrow_cage2.py and format_interactions.py were created by Alexander Flynn-Caro
 │   ├──uses raw data file of aviaries and indiviudals including transponders, aviary number, age, cohort+ social scores and badge size
 ├── SNAsimulations.R      <-  Randomised social network simulations to create null model 
 │   ├──creates a distribution of correlations from randomised null models 
-│   ├──needs a file containing all interactions from every occassion and aviary used in the initial anlysis, plus individuals that entered the cage but did not interact with others
-│   ├──needs a file for badge data, which includes individual's transponder and average hidden badge size and average visible badge size
+│   ├──needs a file containing all interactions from every occassion and aviary used in the initial anlysis, plus individuals that entered the cage but did not interact with others (total_interaction)
+│   ├──needs a file for badge data, which includes individual's transponder and average hidden badge size and average visible badge size 
