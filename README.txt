@@ -17,7 +17,7 @@ sparrow_cage2.py and format_interactions.py were created by Alexander Flynn-Caro
 │   ├──tblAllCodes.csv<-birdID column and a column with their transponder numbers
 │   ├──creates a soc.csv file containing the sociality scores for degree, betweenness and closeness for individuals within the network as   well as background data such as cohort, age, sex and ring colour codes
 │   ├──individuals that entered the cage but did not interact do not appear in the file but have sociality scores of 0
-├── Interactions.R       <-  Analyses sociality scores and badge sizes for each individual per aviary, across the captive population
+├── interaction data.R       <-  Analyses sociality scores and badge sizes for each individual per aviary, across the captive population
 │   ├──uses raw data file of aviaries and indiviudals including transponders, aviary number, age, cohort+ social scores and badge size
 ├── SNAsimulations.R      <-  Randomised social network simulations to create null model 
 │   ├──creates a distribution of correlations from randomised null models 
