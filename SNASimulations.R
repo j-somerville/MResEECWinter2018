@@ -7,7 +7,7 @@ library(plyr)
 ##HB=hidden badge, VB=visible badge
 #Read in RFID-fitted cage data from every aviary:
 total_interaction<- read.csv("~/Jasmine uni/Imperial/Winter project/total_interaction2.csv")
-data<-total_interaction2
+data<-total_interaction
 str(data)
 badge<-(read.csv("Badge1.csv")
 ##this is each individual's badge data      
@@ -57,7 +57,7 @@ for (k in kk){
       NewDat$Strength <- strength(nG)
       NewDat$Closeness <- closeness(nG)
       NewDat$Betweenness <- betweenness(nG)
-      NewDat$Hb<-badge$ahb[match(NewDat$ID,badge$ï..Transponder)]
+      NewDat$Hb<-badge$ahb[match(NewDat$ID,badge$Ã¯..Transponder)]
       # the next two are variables on network - that means they generate the same value for each entry for that network. 
       NewDat$Rdensity<-c(rep(edge_density(nG),length(strength(nG))))
       NewDat$RNVertices<-c(rep(gorder(nG),length(strength(nG))))
